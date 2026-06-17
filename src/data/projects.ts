@@ -14,15 +14,15 @@ export interface Project {
 export const projects: Project[] = [
   {
     slug: "project-one",
-    title: "Project One",
-    description: "A short one-line summary of what this project does.",
+    title: "Civic-report",
+    description: "A Community Issue Reporting Platform",
     longDescription:
-      "A longer description of the project. Explain the problem it solves, who it's for, and the key features you built. Mention any interesting technical challenges you overcame.",
+      "CivicReport is a citizen-centric platform designed to report, track, and resolve civic issues efficiently. It empowers citizens, staff, and administrators to ensure transparency, accountability, and faster resolution of community problems.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
-    image: "/projects/project-one.jpg",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/project-one",
-    year: "2026",
+    image: "https://i.postimg.cc/P5tpcGkL/civic-report.png",
+    liveUrl: "https://civicreport-ebf6d.web.app/",
+    githubUrl: "https://github.com/AbuJubaeid/CivicReport-Client",
+    year: "2025",
     role: "Full-Stack Developer",
   },
   {

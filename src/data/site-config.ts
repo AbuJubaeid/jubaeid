@@ -1,12 +1,12 @@
 export const siteConfig = {
-  name: "Your Name",
+  name: "Jubaeid",
   role: "Full-Stack Developer",
   tagline: "I build fast, accessible, and thoughtful digital experiences.",
   email: "you@example.com",
   location: "Dhaka, Bangladesh",
   social: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
+    github: "https://github.com/AbuJubaeid",
+    linkedin: "https://www.linkedin.com/in/abujubaeidpranto/",
     twitter: "https://twitter.com/yourusername",
   },
   nav: [

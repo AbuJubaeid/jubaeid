@@ -2,8 +2,9 @@ import ContactForm from "@/components/contact/contact-form";
 import PageTransition from "@/components/shared/page-transition";
 import Reveal from "@/components/shared/reveal";
 import { siteConfig } from "@/data/site-config";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import Link from "next/link";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const metadata = {
   title: "Contact",
@@ -43,7 +44,7 @@ export default function ContactPage() {
                 <span>{siteConfig.location}</span>
               </div>
               <div className="flex items-center gap-3 text-sm">
-                <Github size={16} className="text-muted-foreground" />
+                <FaGithub size={16} className="text-muted-foreground" />
                 <Link
                   href={siteConfig.social.github}
                   target="_blank"
@@ -53,7 +54,7 @@ export default function ContactPage() {
                 </Link>
               </div>
               <div className="flex items-center gap-3 text-sm">
-                <Linkedin size={16} className="text-muted-foreground" />
+                <FaLinkedin size={16} className="text-muted-foreground" />
                 <Link
                   href={siteConfig.social.linkedin}
                   target="_blank"
