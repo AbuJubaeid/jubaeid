@@ -7,7 +7,7 @@ export const siteConfig = {
   social: {
     github: "https://github.com/AbuJubaeid",
     linkedin: "https://www.linkedin.com/in/abujubaeidpranto/",
-    twitter: "https://twitter.com/yourusername",
+    facebook: "https://www.facebook.com/abujubaeid.pranto",
   },
   nav: [
     { label: "Home", href: "/" },

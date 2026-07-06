@@ -29,7 +29,7 @@ function LinkedinIcon({ size = 18 }: { size?: number }) {
   );
 }
 
-function TwitterIcon({ size = 18 }: { size?: number }) {
+function FacebookIcon({ size = 18 }: { size?: number }) {
   return (
     <svg
       width={size}
@@ -38,7 +38,7 @@ function TwitterIcon({ size = 18 }: { size?: number }) {
       fill="currentColor"
       aria-hidden="true"
     >
-      <path d="M18.244 2.25h3.308l-7.227 8.26 8.26 10.99h-6.466l-5.063-6.625-5.787 6.625H1.96l7.73-8.835L1.76 2.25h6.62l4.523 5.974L18.244 2.25Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z" />
+      <path d="M22 12.06C22 6.505 17.523 2 12 2S2 6.505 2 12.06c0 5.02 3.657 9.184 8.438 9.94v-7.03H7.898v-2.91h2.54V9.845c0-2.507 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562v1.878h2.773l-.443 2.91h-2.33V22c4.78-.756 8.437-4.92 8.437-9.94Z" />
     </svg>
   );
 }
@@ -68,12 +68,12 @@ export default function Footer() {
             <LinkedinIcon size={18} />
           </Link>
           <Link
-            href={siteConfig.social.twitter}
+            href={siteConfig.social.facebook}
             target="_blank"
             className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="Twitter"
+            aria-label="Facebook"
           >
-            <TwitterIcon size={18} />
+            <FacebookIcon size={25} />
           </Link>
         </div>
       </div>
