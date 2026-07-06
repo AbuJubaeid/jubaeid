@@ -16,19 +16,27 @@ export default function Bio() {
       <Reveal delay={0.1}>
         <div className="mt-8 max-w-2xl space-y-4 text-muted-foreground">
           <p>
-            Replace this paragraph with your real story — where you started,
-            what got you into development, and what drives you today. Keep it
-            personal and specific rather than generic.
+            I am a MERN stack developer based in Dhaka, focused on building web
+            applications that are fast, functional, and actually pleasant to
+            use. My path here started during my CS degree at AIUB, where I moved
+            from coursework into building real, full-stack projects — Firebase
+            authentication, REST APIs, payment integrations — because I wanted
+            to see how software actually holds up outside a classroom.
           </p>
           <p>
-            Mention what kind of problems you enjoy solving, the type of
-            projects or teams you work best with, and anything that makes
-            your background distinct (self-taught, bootcamp, CS degree,
-            career switch, etc).
+            These days I work mainly with React, TypeScript, Node.js, Express,
+            and MongoDB. I like projects with real moving parts: user roles,
+            dashboards, payments, data that needs to stay consistent —
+            CivicReport (a civic issue-reporting platform with role-based
+            dashboards) and ShopNest (an e-commerce platform with Stripe
+            integration and full order processing) are two I am proudest of.
           </p>
           <p>
-            Based in {siteConfig.location}. Currently open to{" "}
-            {siteConfig.role.toLowerCase()} roles and freelance work.
+            I am still early in my career and treat that as an advantage — I am
+            deliberate about learning the fundamentals properly rather than
+            cutting corners, and I am looking for a team where I can keep
+            building that foundation while shipping things that matter.
+            Currently open to junior MERN stack roles and freelance work.
           </p>
         </div>
       </Reveal>
