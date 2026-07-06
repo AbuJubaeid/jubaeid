@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Jubaeid",
   role: "Full-Stack Developer",
   tagline: "I build fast, accessible, and thoughtful digital experiences.",
-  email: "you@example.com",
+  email: "abujubaeidpranto2@gmail.com",
   location: "Dhaka, Bangladesh",
   social: {
     github: "https://github.com/AbuJubaeid",

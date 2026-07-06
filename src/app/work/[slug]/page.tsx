@@ -1,6 +1,6 @@
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import type { Metadata } from "next";
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FaGithub } from "react-icons/fa";
@@ -80,18 +80,13 @@ export default async function ProjectPage({ params }: PageProps) {
 
         <Reveal delay={0.15}>
           <div className="relative mt-8 overflow-hidden rounded-2xl border border-border">
-            {/* <Image
+            <Image
               src={project.image}
               alt={project.title}
               width={1200}
               height={675}
               className="h-auto w-full object-cover"
               priority
-            /> */}
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full rounded-2xl"
             />
           </div>
         </Reveal>

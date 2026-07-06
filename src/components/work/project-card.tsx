@@ -1,5 +1,6 @@
 import type { Project } from "@/data/projects";
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -9,10 +10,13 @@ export default function ProjectCard({ project }: { project: Project }) {
       className="group block overflow-hidden rounded-2xl border border-border bg-card transition-colors hover:border-muted-foreground/40"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-secondary">
-        {/* Replace with next/image once you have real project screenshots */}
-        <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
-          {project.title} preview
-        </div>
+        <Image
+          src={project.image}
+          alt={project.title}
+          fill
+          className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        />
       </div>
 
       <div className="p-6">

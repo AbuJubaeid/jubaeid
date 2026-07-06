@@ -14,7 +14,6 @@ export const techStack: TechCategory[] = [
     items: [
       { name: "TypeScript", icon: "typescript" },
       { name: "JavaScript", icon: "javascript" },
-      { name: "Python", icon: "python" },
     ],
   },
   {
@@ -39,7 +38,6 @@ export const techStack: TechCategory[] = [
     category: "Tools",
     items: [
       { name: "Git", icon: "git" },
-      { name: "Docker", icon: "docker" },
       { name: "Figma", icon: "figma" },
       { name: "Vercel", icon: "vercel" },
     ],
